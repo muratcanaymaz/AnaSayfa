@@ -1,0 +1,121 @@
+/*body alanı tanımlamalar ve ilk arka plan verme*/
+body {
+    --color-primary: rgba(22, 208, 68, 0.7);
+        --color-primary-dark: rgb(104, 127, 104);
+    --color-secondary: rgba(69, 85, 207, 0.823);
+    --color-error: rgb(210,40,40);
+    --color-success: rgba(90,150,40,0.7);
+    --border-radius: 5px;
+
+    background: linear-gradient(to right, var(--color-primary), var(--color-primary-dark)), url(bg.jpeg);
+   background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+}
+
+
+.conteiner
+{width: 400px;
+    max-width: 400px;
+height: 400px;
+max-height: 400px;
+background-color: aqua;
+box-shadow: 0 0 40px rgba(0,0,0,1);
+border-radius: var(--border-radius);
+padding: 2rem;
+margin: 1rem;
+
+}
+
+
+.form__title{
+    text-align: center;
+
+}
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.form__message--error{
+    color: var(--color-error);
+}
+.input__input--group{
+    margin-bottom: 1rem;
+}
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: rgb(119, 68, 100);
+    transition: background 0.3s, bordor-color0.3s;
+
+}
+.form__input:focus{
+    border-color: var(--color-primary);
+    background-color: aquamarine;
+}
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form__button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.997);
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+}
+
+.form__button:hover{
+    background-color: var(--color-primary-dark);
+
+}
+.form__button:active{
+    transform: scale(0.98);
+}
+.form__text{
+  text-align: center;
+
+}
+
+.form__link{
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+.form__link:hover{
+    text-decoration: underline;
+}
+.form__link{
+    margin-inline: 30%;
+    margin-bottom: 1rem;
+}
+.form_-link{
+    margin-inline: 33% ;}
+.form_link{
+    margin: 40%;
+}
+
+.form >*:first-child{
+    margin-top: 0;
+}
+.form >*:last-child{
+    margin-bottom: 0;
+}
