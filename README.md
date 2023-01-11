@@ -1,14 +1,14 @@
 # proje-5
 
-<h1>Web Giriş Sayfası<\h1>
+<h1>Web Giriş Sayfası
 
-<p>Id Ve Şifre Giriş Bölümü <\p>
+<p>Id Ve Şifre Giriş Bölümü
 
-<h2>Harici Kullanılan Teknolojiler<\h2>
+<h2>Harici Kullanılan Teknolojiler
 
 HTML, CSS Kullanıldı 
 
-<h2>Ekran Görüntüsü<\h2>
+<h2>Ekran Görüntüsü
 
 ![](yetişkinler3.gif)
 
